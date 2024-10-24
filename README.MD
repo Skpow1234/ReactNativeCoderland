@@ -23,9 +23,9 @@ Si es la primera vez que configuras React Native, sigue los pasos de [configurac
 
 El proyecto fue inicializado utilizando el siguiente comando:
 
-\`\`\`bash
+```bash
 npx @react-native-community/cli init TaskListApp --template react-native-template-typescript
-\`\`\`
+```
 
 Este comando crea un nuevo proyecto de React Native con soporte para TypeScript.
 
@@ -39,17 +39,17 @@ Para resolver la prueba, se instalaron las siguientes bibliotecas adicionales:
 
 Ejecuta el siguiente comando para instalar las dependencias:
 
-\`\`\`bash
+```bash
 npm install @reduxjs/toolkit react-redux @react-navigation/native @react-navigation/stack axios
-\`\`\`
+```
 
 ### Otras dependencias
 
 Es posible que necesites instalar las siguientes bibliotecas de React Native para la navegación:
 
-\`\`\`bash
+```bash
 npm install react-native-screens react-native-safe-area-context
-\`\`\`
+```
 
 Asegúrate de correr este comando si es necesario.
 
@@ -85,7 +85,7 @@ La aplicación tiene una pantalla principal con dos botones:
 
 ## Estructura de Archivos
 
-\`\`\`
+```
 /src
   /screens
     HomeScreen.tsx     # Pantalla principal con botones de navegación.
@@ -97,15 +97,15 @@ La aplicación tiene una pantalla principal con dos botones:
   /navigation
     index.tsx          # Configuración de la navegación de la aplicación.
 App.tsx                # Componente principal que conecta Redux y navegación.
-\`\`\`
+```
 
 ## Pruebas
 
 Se han escrito pruebas unitarias básicas utilizando **Jest**. Un ejemplo de prueba se encuentra en \`**tests**/TaskScreen.test.tsx\`. Para correr las pruebas, utiliza el siguiente comando:
 
-\`\`\`bash
+```bash
 npm test
-\`\`\`
+```
 
 ## Ejecución del Proyecto
 
@@ -113,15 +113,15 @@ Para ejecutar la aplicación en un emulador o dispositivo Android, sigue estos p
 
 1. **Iniciar el servidor Metro**:
 
-\`\`\`bash
+```bash
 npx react-native start
-\`\`\`
+```
 
 2. **Correr la aplicación en Android**:
 
-\`\`\`bash
+```bash
 npx react-native run-android
-\`\`\`
+```
 
 ## Bibliotecas y Versiones
 
@@ -144,9 +144,9 @@ Las pruebas se realizaron con **Jest** y **@testing-library/react-native**. Los 
 
 Los datos de la pantalla de listado se obtienen desde un API remoto utilizando el siguiente endpoint:
 
-\`\`\`bash
+```bash
 <https://6172cfe5110a740017222e2b.mockapi.io/elements>
-\`\`\`
+```
 
 ## Conclusión
 
